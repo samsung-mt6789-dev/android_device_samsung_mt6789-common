@@ -79,5 +79,8 @@ BOARD_AVB_VENDOR_BOOT_ALGORITHM := SHA256_RSA4096
 BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX := 1
 BOARD_AVB_VENDOR_BOOT_ROLLBACK_INDEX_LOCATION := 1
 
+# VNDK
+BOARD_VNDK_VERSION := current
+
 # Inherit the proprietary files
 include vendor/samsung/mt6789-common/BoardConfigVendor.mk
