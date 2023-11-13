@@ -53,6 +53,15 @@ BOARD_BOOTCONFIG := androidboot.selinux=permissive
 # Bootloader
 TARGET_NO_BOOTLOADER := true
 
+# Kernel
+TARGET_KERNEL_ARCH := arm64
+TARGET_KERNEL_HEADER_ARCH := arm64
+TARGET_KERNEL_SOURCE := kernel/samsung/mt6789-common
+TARGET_KERNEL_CONFIG := \
+	gki_defconfig \
+
+BOARD_KERNEL_IMAGE_NAME := Image.gz
+
 # Platform
 TARGET_BOARD_PLATFORM := mt6789
 BOARD_HAS_MTK_HARDWARE := true
