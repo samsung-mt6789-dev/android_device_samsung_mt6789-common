@@ -38,7 +38,8 @@ PRODUCT_PACKAGES += \
     fstab.mt6789 \
     fstab.mt8781 \
     fstab.mt6789.vendor_ramdisk \
-    fstab.mt8781.vendor_ramdisk
+    fstab.mt8781.vendor_ramdisk \
+    init.recovery.mt6789.rc
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
