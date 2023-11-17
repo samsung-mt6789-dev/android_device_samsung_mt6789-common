@@ -109,6 +109,7 @@ BOARD_VENDOR := samsung
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(COMMON_PATH)/init/fstab.mt6789
+TARGET_USERIMAGES_USE_F2FS := true
 
 # Verified Boot
 BOARD_AVB_ENABLE := true
