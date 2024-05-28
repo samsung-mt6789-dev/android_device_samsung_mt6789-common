@@ -15,6 +15,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
 # A/B
 AB_OTA_UPDATER := false
+PRODUCT_SOONG_NAMESPACES += bootable/deprecated-ota
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
