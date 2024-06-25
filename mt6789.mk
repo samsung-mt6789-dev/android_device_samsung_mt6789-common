@@ -13,6 +13,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Declare as non AB device
 $(call inherit-product, $(SRC_TARGET_DIR)/product/non_ab_device.mk)
 
+# A/B
+AB_OTA_UPDATER := false
+
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_BUILD_SUPER_PARTITION := false
