@@ -8,12 +8,96 @@ prebuilt_etc {
     name: "fstab.mt6789",
     src: "fstab.mt6789",
     vendor: true,
-    vendor_ramdisk_available: true,
+    recovery_available: true, 
+    ramdisk_available: true,
 }
 
 prebuilt_etc {
     name: "fstab.mt8781",
     src: "fstab.mt8781",
     vendor: true,
-    vendor_ramdisk_available: true,
+    recovery_available: true, 
+    ramdisk_available: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.common.rc",
+    src: "init.connectivity.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.connectivity.rc",
+    src: "init.connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init_connectivity.rc",
+    src: "init_connectivity.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.cgroup.rc",
+    src: "init.cgroup.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.modem.rc",
+    src: "init.modem.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6789.rc",
+    src: "init.mt6789.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt6789.usb.rc",
+    src: "init.mt6789.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mt8781.rc",
+    src: "init.mt8781.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.mtkgki.rc",
+    src: "init.mtkgki.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+prebuilt_etc {
+    name: "init.recovery.mt8781.rc",
+    src: "init.recovery.mt8781.rc",
+    sub_dir: "init",
+    recovery: true,
+} 
+ 
+prebuilt_etc {
+    name: "init.sensor_2_0.rc",
+    src: "init.sensor_2_0.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "ueventd.mt6789.rc",
+    src: "ueventd.mt6789.rc",
+    vendor: true,
 }
