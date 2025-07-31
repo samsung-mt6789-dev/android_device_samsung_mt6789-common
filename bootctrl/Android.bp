@@ -37,7 +37,8 @@ cc_library_shared {
         "android.hardware.boot@1.0",
         "android.hardware.boot@1.1",
         "android.hardware.boot@1.2",
-        "libmtk_bsg"
+        "libmtk_bsg",
+        "libbase"
     ],
     static_libs: [
         "libboot_control",
